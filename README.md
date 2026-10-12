@@ -1,31 +1,42 @@
 # Literatura PT-BR
 
-Obras literárias traduzidas para o português, com o texto pronto para ler e para reeditar.
+Um armário de obras em português. Abre a pasta do autor, escolhe o título e lê.
 
-Começa por autores que prendem a leitura. O primeiro é H. P. Lovecraft. Conforme outros entrarem, sobem aqui do mesmo jeito: uma pasta por autor, a obra em vários formatos, o texto fiel ao original e um catálogo para achar o que já existe.
+O primeiro morador é H. P. Lovecraft. Outros autores entram do mesmo jeito: uma pasta, o texto fiel, e um catálogo para achar o que já existe.
 
-## O que tem aqui
+## Por onde começar
 
-| Pasta | O que é |
+A pasta é `h.p._lovecraft`.
+
+O nome do arquivo já diz o que você precisa:
+
+```
+O Navio Branco_Lovecraft_1919.txt
+A Armadilha_Lovecraft_e_Coautor_1932.txt
+```
+
+- O título vem primeiro.
+- `Lovecraft` é obra só dele.
+- `Lovecraft_e_Coautor` é colaboração ou revisão com outra pessoa.
+- O número no fim é o ano da publicação.
+- A extensão diz o formato: `.txt`, `.docx`, `.pdf` ou `.epub`.
+
+Não há data no começo do nome. A obra abre pelo título.
+
+## O que tem na pasta
+
+| Arquivo | Para que serve |
 | --- | --- |
-| `Ficcao_H. P. Lovecraft` | Contos traduzidos e o catálogo da obra dele |
+| `.txt` | Texto puro. Busca, comparação, reedição. |
+| `.docx` | Fonte, quando existe. Título, linha de publicação e o texto. |
+| `.pdf` | Leitura impressa, gerada a partir do DOCX. |
+| `.epub` | Leitura em tela. |
+| `obras-criadas.txt` | Catálogo da obra dele, não só o que já foi traduzido. |
+| `H. P. Lovecraft - Todas as obras.xlsx` | A mesma lista, em planilha. |
 
-Cada conto traduzido sai em quatro arquivos, com o mesmo miolo:
+A maior parte das ficções está em TXT. Oito contos também têm DOCX, PDF e EPUB, com o mesmo miolo.
 
-- **DOCX** é a fonte. Título, linha de publicação, imagens e o texto.
-- **PDF** é a leitura impressa, gerada a partir do DOCX.
-- **EPUB** é a leitura em tela, exportada pelo Calibre.
-- **TXT** é o texto puro, para busca, comparação e reedição.
-
-## Como os arquivos se chamam
-
-A data no nome é a da primeira publicação, no formato `AAAAMM`.
-
-- DOCX, PDF e TXT separam os campos com `_`: `191911_O Navio Branco.docx`
-- EPUB usa espaços: `191911 O Navio Branco.epub`
-- Série numerada leva o número na frente: `01_Completo Mito dos Contos de Cthulhu_191911_Dagon`
-
-Dentro do arquivo, a obra abre assim:
+Dentro do texto, a obra abre assim:
 
 ```
 Título
@@ -33,26 +44,11 @@ Título
 H. P. Lovecraft - Obra publicada em Mês de Ano
 ```
 
-O corpo vem em parágrafos. Notas do tradutor ficam no fim, marcadas com `(N.T.)`.
-
-## Lovecraft já traduzido
-
-Oito contos, em `Ficcao_H. P. Lovecraft`:
-
-1. Dagon
-2. O Chamado de Cthulhu
-3. O Navio Branco
-4. O Depoimento de Randolph Carter
-5. Memória
-6. Além da barreira do sono
-7. O monstro na caverna
-8. Uma reminiscência do Doutor Samuel Johnson
-
-O texto em inglês usado na comparação é o do [H. P. Lovecraft Archive](https://www.hplovecraft.com/writings/fiction/). O Wikisource serve quando a pergunta é qual revista imprimiu a obra.
+Os parágrafos vêm em seguida. Nota do tradutor, quando há, fica no fim e leva `(N.T.)`.
 
 ## Catálogo
 
-`Ficcao_H. P. Lovecraft/obras-criadas.txt` lista o que Lovecraft escreveu, não só o que já foi traduzido aqui.
+`h.p._lovecraft/obras-criadas.txt` lista o que Lovecraft escreveu.
 
 A primeira linha é o cabeçalho. Cada obra seguinte começa com um número:
 
@@ -60,9 +56,13 @@ A primeira linha é o cabeçalho. Cada obra seguinte começa com um número:
 N | ANO | TITULO ORIGINAL | TITULO EM PORTUGUES | URL | ANO DE ESCRITA | PÁGINAS APROX. | ÉPOCA/FASE | 1A PUBLICAÇÃO / LANÇAMENTO | VEÍCULO DA 1A PUBLICAÇÃO | TEMA/CICLO | STATUS/AUTORIA
 ```
 
-Onde não há tradução publicada, a coluna em português diz `Sem tradução publicada`. Onde a fonte não informa o número de páginas, diz `Não informado`.
+Onde não há tradução publicada, a coluna em português diz `Sem tradução publicada`. Onde a fonte não informa páginas, diz `Não informado`.
 
-As cartas não entram uma a uma. O arquivo do autor registra cerca de 3500 cartas extantes, reunidas em livros. O índice está em https://www.hplovecraft.com/writings/letters/
+As cartas não entram uma a uma. O arquivo do autor registra cerca de 3500 cartas, reunidas em livros. O índice está em https://www.hplovecraft.com/writings/letters/
+
+## De onde veio o inglês
+
+O texto comparado é o do [H. P. Lovecraft Archive](https://www.hplovecraft.com/writings/fiction/). O Wikisource entra quando a pergunta é qual revista imprimiu a obra.
 
 ## Licença
 
