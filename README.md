@@ -67,5 +67,3 @@ O texto comparado é o do [H. P. Lovecraft Archive](https://www.hplovecraft.com/
 ## Licença
 
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt).
-
-Pode copiar, adaptar e redistribuir. Tem que citar quem traduziu, manter a mesma licença e não usar para ganhar dinheiro. MIT e GPL não servem: as duas deixam vender.
